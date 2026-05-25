@@ -100,10 +100,10 @@ void create_arrow_bitmap(ALLEGRO_BITMAP* arrow_bmp[], ALLEGRO_DISPLAY* display)
 		
 		int x = 15;
 		int y = 15;
-		al_draw_filled_ellipse(32,20, 30, 20, al_map_rgb(255, 0, 0)); //DON'T TOUCH YET, RX RY 15 + 10 SCALE
-		al_draw_filled_circle(30, 20, 15, al_map_rgb(0, 0, 255));
-		//al_draw_filled_rectangle(x - 10, y - 10, 30, 30, al_map_rgb(0, 255, 0));
-		//al_draw_filled_triangle(x + 10 , y + 10, x + 10, y + 10, x + 10, y + 10, al_map_rgb(24, 36, 48));
+		al_draw_filled_ellipse(32,20, 30, 20, al_map_rgb(255, 255, 255)); //DON'T TOUCH YET, RX RY 15 + 10 SCALE
+		al_draw_filled_circle(30, 20, 15, al_map_rgb(93,63,211));
+		al_draw_filled_rectangle(35, 25, 22, 17, al_map_rgb(0, 255, 0));
+		al_draw_filled_triangle(15, 20, 30, 5, 8, 9, al_map_rgb(24, 36, 48));
 
 
 
