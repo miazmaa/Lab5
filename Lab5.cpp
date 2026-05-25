@@ -105,22 +105,5 @@ void create_arrow_bitmap(ALLEGRO_BITMAP* arrow_bmp[], ALLEGRO_DISPLAY* display)
 		al_draw_filled_rectangle(35, 43, 22, 35, al_map_rgb(0, 0, 0));
 		al_draw_filled_triangle(32,2,22,18,42,18, al_map_rgb(0,0,255));
 
-
-
-		switch (i)
-		{
-		case 0: //Up
-			al_draw_filled_triangle(x - 10, y - 10, x + 11, y - 10, x, y - 15, al_map_rgb(255, 0, 0));
-			break;
-		case 1://Right
-			al_draw_filled_triangle(x + 11, y - 11, x + 11, y + 11, x + 15, y, al_map_rgb(255, 0, 0));
-			break;
-		case 2://Down
-			al_draw_filled_triangle(x - 11, y + 11, x + 11, y + 11, x, y + 15, al_map_rgb(255, 0, 0));
-			break;
-		case 3: //Left
-			al_draw_filled_triangle(x - 11, y - 11, x - 11, y + 11, x - 15, y, al_map_rgb(255, 0, 0));
-			break;
-		}
 	}
 }
