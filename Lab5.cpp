@@ -97,7 +97,7 @@ void create_arrow_bitmap(ALLEGRO_BITMAP* arrow_bmp[], ALLEGRO_DISPLAY* display)
 
 		al_set_target_bitmap(arrow_bmp[i]);
 		al_clear_to_color(al_map_rgb(0, 0, 0));
-
+		
 		int x = 15;
 		int y = 15;
 		al_draw_filled_ellipse(32,20, 30, 20, al_map_rgb(255, 0, 0)); //DON'T TOUCH YET, RX RY 15 + 10 SCALE
